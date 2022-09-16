@@ -3,7 +3,7 @@ Keyless door lock
 
 ## Lock
 The lock will be an inexpensive microcontroller board with an integrated wifi chip.
-Rasperry Pi Pico is available from $4.
+[Rasperry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) is available from $4.
 
 This board must connect to the lock hardware in the door, and the hotel's wifi network.
 
