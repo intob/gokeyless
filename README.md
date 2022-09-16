@@ -2,14 +2,20 @@
 Keyless door lock
 
 ## Lock
-The lock will be an inexpensive microcontroller board with an integrated wifi chip.
+
+For both of the approaches below, the public key of the backend must be stored to authenticate connections or validate QR codes.
+
+### Wifi design
+The lock could be an inexpensive microcontroller board with an integrated wifi chip.
 [Rasperry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) is available from $4.
 
 This board must connect to the lock hardware in the door, and the hotel's wifi network.
 
 The application running on this board listens for TCP/IP connections from the backend described below.
 
-The public key of the backend must be stored to authenticate connections.
+### QR code & camera design
+The Rasperry Pi Zero module & case can be fitted with an integrated camera. This could read a QR code from the phone.
+The QR code would be a signed & time-limited token that unlocks the door for the duration of the client's stay.
 
 ## Web app
 The web app allows users to book & pay for the room.
