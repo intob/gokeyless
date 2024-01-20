@@ -15,7 +15,7 @@ The application running on this board listens for TCP/IP connections from the ba
 
 ### QR code & camera design
 The Rasperry Pi Zero module & case can be fitted with an integrated camera. This could read a QR code from the phone.
-The QR code would be a signed & time-limited token that unlocks the door for the duration of the client's stay.
+The QR code would be a ephemerally-signed token that unlocks the door for the duration of the client's stay.
 
 ## Web app
 The web app allows users to book & pay for the room.
